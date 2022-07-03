@@ -8,49 +8,54 @@
     <link rel="stylesheet" href="AboutPageAssets/styles/aboutPageStyle.css">
 </head>
 <body>
-    <div>
-        <h2>Conctact Me</h2>
-        <p>Plase fill in your information and we'll be sending your order in no time.</p>
-        <div>
-            Your Name
-            <input type="text" title="Name" placeholder="Name">
-            <input type="text" title="Surname" placeholder="Surname">
+    <h2 class="title-contact">Conctact Me</h2>
+    <div class="center">
+        <div class="button-user">
+            <div class="button-user-info"><a href="index.html" title="Me"><span>ME</span></a></div>
+            <div class="button-user-info"><a href="index-about-me.html" title="About Me"><span>ABOUT ME</span></a></div>
+            <div class="button-user-info"><a href="index-contact-me.html" title="Contact Me"><span>CONTACT ME</span></a></div>
         </div>
+    </div>
+    <div class = "contact-form">
+        <p class="container-text">Plase fill in your information and we'll be sending your order in no time.</p>
         <div>
-            Your Email
-            <input type="email" title="email" placeholder="Email">
+            <span class="span-form">Your Name</span>
+            <input type="text" title="First Name" placeholder="First Name">
+            <input type="text" title="Last Name" placeholder="Last Name">
         </div>
+        <br>
         <div>
-            Phone Number
+            <span class="span-form">Your Email</span>
+            <input type="email" title="email" placeholder="Email@gmail.com">
+        </div>
+        <br>
+        <div>
+            <span class="span-form">Phone Number</span>
             <input type="tel" title="Phone Number" placeholder="Phone Number">
         </div>
+        <br>
         <div>
-            Message
+            <span class="span-form">Message</span>
             <input type="text" title="Message" placeholder="Message">
         </div>
         <hr>
-        <div>
-            <a href="#" title="button-subit">SUBIT FORM</a>
+        <div class="center">
+            <div class="button-user-info">
+                <br>
+                <a href="#" title="button-subit">SUBIT FORM</a>
+            </div>
         </div>
     </div>
-    <div>
-        <h2>Social Network</h2>
-        <ul>
-            <li><img src="#" alt="#">Facebook</li>
-            <li><img src="#" alt="#">Instagram</li>
-            <li><img src="#" alt="#">GitHub</li>
-        </ul>
-    </div>
-    <div>
-        <div class="button-user-info"><a href="index.html" title="Me"><span>ME</span></a></div>
-        <div class="button-user-info"><a href="index-about-me.html" title="About Me"><span>ABOUT ME</span></a></div>
-        <div class="button-user-info"><a href="index-contact-me.html" title="Contact Me"><span>CONTACT ME</span></a></div>
+    <div class="user-red-social">
+        <div class="red-social"><a href="https://www.facebook.com/randox.mieses.9/" class="red"><img src="AboutPageAssets/svg/icons8-facebook-nuevo.svg" alt="Facebook" class="user-red-social-icons"></a></div>
+        <div class="red-social"><a href="https://www.instagram.com/math.randox/" class="red"><img src="AboutPageAssets/svg/icons8-instagram.svg" alt="Instagram" class="user-red-social-icons"></a></div>
+        <div class="red-social"><a href="https://github.com/MathRandox" class="red"><img src="AboutPageAssets/svg/icons8-github.svg" alt="GitHub" class="user-red-social-icons"></a></div>
     </div>
     <br>
-    <footer>
-        <hr>
-        <p>2022 Copyrights - <span>All Rights Reserved</span></p>
-        <p>Joseph Mieses - <span>Email me</span></p>
+    <footer class="end-info">
+        <hr class="hr-separation">    
+        <p class="footer-text-initial">2022 Copyrights - All Rights Reserved</p>
+        <p class="footer-text-final">Joseph Mieses - <span class="footer-email">Email me</span></p>
     </footer>
 </body>
 </html>

@@ -110,7 +110,6 @@ body{
 a:hover{
     letter-spacing: 0.20em;
     background: rgb(278, 123, 200);
-    
 }
 /*footer*/
 .end-info{
@@ -118,4 +117,121 @@ a:hover{
     bottom: 0;
     right: 10px;
     left: 10px;
+}
+
+.footer-text-initial{
+    float: left;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.footer-text-final{
+    float: right;
+    text-align: right;
+    padding-right: 1em;
+}
+.footer-email{
+    transition: 1s;
+}
+.footer-email:hover{
+    color: rgb(61, 125, 230);
+}
+
+.title-contact{
+    text-align: center;
+    font-size: 2.5em;
+    transition: 1s;
+}
+.title-contact:hover{
+    color: rgb(278, 123, 200);
+    font-size: 3em;
+}
+.contact-form{
+    float: center;
+    /*background-color: rgb(50, 172, 197);*/
+    background-color: transparent;
+    padding: 7px 20px;
+    margin: 5px 20%;
+    border-radius: 40px;
+}
+.user-red-social{
+    text-align: center;
+    padding: 0.5em 5em 5em 1em;
+    margin: 0 20px 0 100px;
+}
+
+.user-red-social-icons {
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 50px;
+    transition: 1s;
+}
+.user-red-social-icons:hover{
+    height: 70px;
+}
+.red{
+    transition: 1.5s;
+}
+.red:hover{
+    background-color: transparent;
+}
+.red-social{
+    display: inline;
+}
+.center{
+    text-align: center;
+}
+div span{
+    font-weight: bold;
+}
+
+div input{
+    float: right;
+    margin: 0 2em;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.info-user-complete{
+    margin-top: 100px;
+    text-align: left;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.name-user-complete{
+    color: white;
+    transition: 1s;
+}
+.name-user-complete:hover{
+    color: rgb(278, 123, 200);
+    font-size: 1.5em;
+}
+
+.end-info-complete{
+    bottom: 0;
+    right: 10px;
+    left: 10px;
+}
+
+.article-user{
+    text-align: center;
+    border: 2px;
+    border-color: yellow;
+    float: left;
+    margin: 10px 9em;
+}
+.user-red-social-icons-info {
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 100px;
+    transition: 1s;
+}
+
+h5{
+    font-size: 1em
 }
