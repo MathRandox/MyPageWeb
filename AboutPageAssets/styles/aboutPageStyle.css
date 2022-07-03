@@ -1,0 +1,121 @@
+*{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    /*background: rgb(23, 28, 50);*/
+    background-image: linear-gradient(120deg, #009072 0, #009081 3.33%, #009190 6.67%, #00909e 10%, #0090ac 13.33%, #008fb8 16.67%, #008ec4 20%, #008dce 23.33%, #008bd6 26.67%, #0088dd 30%, #0085e1 33.33%, #0081e4 36.67%, #007de4 40%, #0078e2 43.33%, #4b72de 46.67%, #6c6cd8 50%, #8465d0 53.33%, #985ec7 56.67%, #a957bc 60%, #b750b0 63.33%, #c249a2 66.67%, #ca4495 70%, #d14086 73.33%, #d53e78 76.67%, #d73e6a 80%, #d7405c 83.33%, #d5454e 86.67%, #d14b40 90%, #cb5133 93.33%, #c55826 96.67%, #bc5e18 100%);
+    height: 100%;
+    background-size: 200% 200%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+/*info general*/
+.info-general {
+    float: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 190px;
+    padding-bottom: 12%;
+}
+/*formato imagen*/
+.image{
+    float: left;
+}
+
+.image-user{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    align-items: right;
+    margin-left: 20px;
+    margin-right: 40px;
+    transition: 0.7s;
+}
+
+.image-user:hover{
+    transform: scale(1.2);
+}
+/*formato informacion user*/
+.info-user{
+    text-align: left;
+}
+
+.name-user{
+    color: rgb(115, 156, 235);
+    transition: 1s;
+}
+
+.name-user:hover{
+    color: rgb(278, 123, 200);
+}
+
+.profesion-user{
+    transition: 1.5s;
+}
+
+.profesion-user:hover{
+    letter-spacing: 0.25em;
+}
+
+.info-user h1{
+    font-size: 55px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.hr-separation{
+    height: 2px;
+    background: #fff;
+
+}
+
+.container-text{
+    font-size: 1.5em;
+    text-align: justify;
+    transition: 1s;
+}
+.container-text:hover{
+    letter-spacing: 0.03em;
+}
+/*botones animacion*/
+.button-user-info{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button-user-info a{
+    background: rgb(115, 156, 235);
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 7px 1em;
+    transition: 0.85s;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+a:hover{
+    letter-spacing: 0.20em;
+    background: rgb(278, 123, 200);
+    
+}
+/*footer*/
+.end-info{
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    left: 10px;
+}
